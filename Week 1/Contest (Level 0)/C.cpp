@@ -98,19 +98,15 @@ const ll infLL = 9000000000000000000;
 
 
 
+
 int main()
 {
     Boost;
 
-    int h,n,a;
-    cin>>h>>n;
-    while (n--)
-    {
-        cin>>a;
-        cout<<
-    }
-    
-    
-    return 0;
+   int n;
+   cin>>n;
+   int res = ceil(double(n)/2);
+   cout<<res<<endl;
+return 0;
 
 }

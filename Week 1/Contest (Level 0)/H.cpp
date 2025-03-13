@@ -102,15 +102,14 @@ int main()
 {
     Boost;
 
-    int h,n,a;
-    cin>>h>>n;
-    while (n--)
-    {
-        cin>>a;
-        cout<<
-    }
-    
-    
+    ll n,m;
+    cin>>n>>m;
+
+    ll ln = n%10;
+    ll lm = m%10;
+
+    cout<<ln + lm<<endl;
+
     return 0;
 
 }

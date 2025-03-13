@@ -102,15 +102,12 @@ int main()
 {
     Boost;
 
-    int h,n,a;
-    cin>>h>>n;
-    while (n--)
-    {
-        cin>>a;
-        cout<<
-    }
-    
-    
+   int a,b;
+   cin>>a>>b;
+   cout<<"floor "<<a<<" / "<<b<<" = "<<floor(double(a)/b)<<endl;
+   cout<<"ceil "<<a<<" / "<<b<<" = "<<ceil(double(a)/b)<<endl;
+   cout<<"round "<<a<<" / "<<b<<" = "<<round(double(a)/b)<<endl;
+   
     return 0;
 
 }
